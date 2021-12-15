@@ -23,11 +23,12 @@
   width: 183px;
   height: 32px;
 }
-
+/* это надо перепроверить */
 .header__logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
+  z-index: 1;
 } 
 
 .header__title {
@@ -35,6 +36,7 @@
   display: flex;
   margin-left: 64px; 
   align-items: center;
+  z-index: 1;
 }
 
  h1 {
@@ -48,12 +50,17 @@
   width: 388px;
   left: 64px;
   bottom: 30px;
+  z-index: 1;
 }
 
 p {
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
+}
+
+.menu__link {
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -73,6 +80,40 @@ p {
   background-color: #2f80ed;
   z-index: -1;
 }
+
+.description {  
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+ .two-columns {
+  width: 80%; 
+  background-color: khaki;
+  margin: auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+  background-color: lightcoral;
+}
+
+.two-columns__main-text {
+  background-color: lightseagreen;
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph {
+  
+  
+}
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
