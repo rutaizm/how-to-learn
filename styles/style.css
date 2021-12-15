@@ -15,6 +15,8 @@
   max-height: 756px;
   background-color:  #f2f2f2;
   position: relative;
+  display: flex;
+  z-index: -2;
 }
 
 .logo {
@@ -30,19 +32,46 @@
 
 .header__title {
   width: 730px;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-row {
   display: flex;
-
+  margin-left: 64px; 
+  align-items: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+ h1 {
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+ }
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: -1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
