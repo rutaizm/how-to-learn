@@ -6,14 +6,37 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  background-color:  #f2f2f2;
+  position: relative;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.header__logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+} 
+
+.header__title {
+  width: 730px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
