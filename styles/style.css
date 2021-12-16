@@ -16,34 +16,35 @@
   background-color:  #f2f2f2;
   position: relative;
   display: flex;
+  align-items: center;
   z-index: -2;
+  margin-bottom: 0;
 }
 
 .logo {
-  width: 183px;
-  height: 32px;
-}
-/* это надо перепроверить */
-.header__logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 1;
+}
+
+.logo_place_header {
+  position: absolute;
+  z-index: 1;
+  width: 183px;
+  height: 32px;
 } 
 
 .header__title {
   width: 730px;
   display: flex;
-  margin-left: 64px; 
-  align-items: center;
+  position: absolute;
+  left: 64px; 
   z-index: 1;
-}
-
- h1 {
-  font-size: 102px;
   line-height: 96px;
+  font-size: 102px;
   font-weight: bold;
-}
+ }
 
 .header__subtitle {
   position: absolute;
@@ -52,13 +53,10 @@
   bottom: 30px;
   z-index: 1;
   line-height: 25px;
-}
-
-p {
   font-size: 18px;
   font-weight: normal;
 }
-  
+ 
 .menu__link {
   color: #2f80ed;
 }
@@ -83,8 +81,9 @@ p {
 
 .description {  
   display: flex;
+  padding: 0;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 0;
 }
 
  .two-columns {
@@ -92,7 +91,7 @@ p {
   margin: auto;
   display: flex;
   justify-content: space-between;
-}
+ }
 
 .two-columns__brief {
   width: 175px;
@@ -102,39 +101,80 @@ p {
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px; 
+  min-width: 784px; /* тут должна быть мин высота, но не знаю как применить */
 }
 
 .two-columns__span-accent {
+  display: flex;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-.two-columns__paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-span {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
 
-
-
-/*
-p {
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
+.two-columns__paragraph { 
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
- x
 
-  */
- 
-  
+/*надо что-то сделать с отступами*/
+.digits {
+  display: flex;
+  background-color: papayawhip;
+  flex-direction: column;
+  align-items:center;
+}
+
+.section-title {
+  background-color: palevioletred;
+  width: 60%;
+  display:flex;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  width: 60%;
+  background-color: rgb(238, 187, 238);
+  display: flex;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  width: 1100px;
+  background-color: powderblue;
+  /*margin-top: 60px;*/
+  display: flex;
+  align-items:baseline;
+  justify-content: space-around;
+}
+
+.table__cell {
+  width: 250px;
+  background-color: darkturquoise;
+  margin-top: 60px;
+  }
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
