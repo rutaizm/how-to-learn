@@ -104,18 +104,11 @@
 }
 
 .two-columns__span-accent { 
-  display: flex;
   margin-top: 30px;
   margin-bottom: 30px;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-}
-
-.two-columns__span-accent::after {
-  content: 'учиться тоже нужно уметь, но почему-то этому мало где учат. ';
-  margin: 0;
-  font-weight: normal;
 }
 
 .two-columns__paragraph { 
@@ -308,14 +301,15 @@ text-decoration: none;
 .footer {
   background-color: #1f1f1f;
   min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .footer__columns {
   width: 90%;
-  padding-top: 60px;
-  padding-bottom: 40px;
   display: flex;
-  margin: auto;
   justify-content: space-between;
 }
 
@@ -343,15 +337,11 @@ text-decoration: none;
 
 .footer__column_content_info {
   color: white;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer__column-links {
   color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding-bottom: 16px;
 }
 
 .footer__column-heading {
@@ -361,6 +351,7 @@ text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  display: block;
 }
 
 .footer__column-link {
@@ -369,7 +360,7 @@ text-decoration: none;
   font-weight: normal;
   text-decoration: none;
   color: white;
-  margin-bottom: 16px;
+  display: block;
 }
 
 .footer__column__social {
