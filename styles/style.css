@@ -37,7 +37,7 @@
   width: 730px;
   display: flex;
   position: absolute;
-  left: 64px; 
+  left: 64px;
   z-index: 1;
   line-height: 96px;
   font-size: 102px;
@@ -84,7 +84,7 @@
 }
 
  .two-columns {
-  width: 80%; 
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -233,7 +233,7 @@ text-decoration: none;
 }
 
 .kaufman {
- background-color: #1f1f1f; 
+ background-color: #1f1f1f;
  position: relative;
  display: flex;
  justify-content: flex-start;
@@ -247,7 +247,7 @@ text-decoration: none;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bold;  
+  font-weight: bold;
   color: white;
   text-align: center;
   padding-top: 100px;
@@ -258,7 +258,7 @@ text-decoration: none;
   width: 60%;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;  
+  font-weight: normal;
   color: white;
   text-align: center;
   padding-top: 20px;
