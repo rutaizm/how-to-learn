@@ -61,6 +61,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -100,7 +104,6 @@
   margin: 0;
   font-weight: normal;
   font-size: 18px;
-
 }
 
 .two-columns__main-text {
@@ -120,6 +123,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+}
+
+.two-columns__paragraph:first-child {
+  padding-top: 0;
 }
 
 .digits {
@@ -232,6 +239,10 @@ font-weight: normal;
 text-decoration: none;
 }
 
+.feynman__link:hover {
+  text-decoration: underline;
+}
+
 .kaufman {
  background-color: #1f1f1f;
  position: relative;
@@ -334,6 +345,10 @@ z-index: -1;
   text-decoration: none;
   display: block;
   color: white;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
 }
 
 .footer__social-icon {
