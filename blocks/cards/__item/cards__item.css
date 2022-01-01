@@ -1,0 +1,7 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 240px; /* 920px (ширина всего блока cards) - 200px (отступы справа и слева от центральной карточки в ряду) / 3 (всего три карточки в ряд) = 240px (ширина одной карточки) */
+  padding-top: 60px;
+ }
