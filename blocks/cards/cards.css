@@ -8,8 +8,7 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  background-color: thistle;
-  justify-content: space-evenly;
   margin: 0;
   padding-left: 0;
 }
+

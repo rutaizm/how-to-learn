@@ -3,6 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 80%;
-  margin: auto;
- background-color: wheat ;
+  padding-left: 10%;
+  padding-right: 10%;
 }
