@@ -5,5 +5,5 @@
   padding-bottom: 40px;
   display: flex;
   justify-content: space-evenly;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
